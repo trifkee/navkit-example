@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  scroll-behavior: smooth;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", serif;
+}
+
+body {
+  contain: layout paint size;
+  interpolate-size: allow-keywords;
+  color: white;
+  width: 1920px;
+  height: 1080px;
+  /* overflow: hidden; */
+  background: white;
+}
